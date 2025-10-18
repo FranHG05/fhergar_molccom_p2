@@ -103,9 +103,7 @@ class MainView extends StatelessWidget {
                       // Navega a la siguiente pantalla al pulsar
                       Navigator.push(
                         context,
-                        MaterialPageRoute(
-                          builder: (context) => const ListViewPage(),
-                        ),
+                        MaterialPageRoute(builder: (context) => ListViewPage()),
                       );
                     },
                     child: Container(
